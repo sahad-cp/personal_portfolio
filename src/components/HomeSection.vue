@@ -3,7 +3,7 @@
 
 </script>
 <template>
-    <section class="w-full h-screen grid bg-black bg-opacity-90 grid-flow-row grid-cols-1  md:grid-cols-2 ">
+    <section class="w-full h-screen grid grid-flow-row grid-cols-1  md:grid-cols-2 " id="homesection" >
         <div class=" flex justify-center items-center">
             <div>
             <h2 class="font-bold text-3xl md:text-6xl text-white">Hi,</h2>
@@ -24,5 +24,14 @@
     background-image: url('../assets/IMG-20221024-WA0014.jpg') ;
     background-repeat: no-repeat;
     background-size: cover ;
+}
+#main-img:hover{
+    box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+}
+
+#homesection{
+    background-image: linear-gradient(360deg,rgb(0, 0, 0,0.8),rgb(0, 0, 0,0.8)),url('../assets/top-ide-software.jpeg');
+    background-repeat:no-repeat ;
+    background-size:cover ;
 }
 </style>

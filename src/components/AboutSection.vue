@@ -3,7 +3,7 @@
 
 </script>
 <template>
-    <section class="h-auto md:h-screen w-full grid grid-flow-row grid-cols-1  md:grid-cols-2  ">
+    <section class="h-auto md:h-screen w-full grid grid-flow-row grid-cols-1  md:grid-cols-2  " id="about_section">
         <div class="flex justify-center items-center p-4 sm:p-10 md:p-10 lg:p-32">
             <div>
                 <h1 class="text-6xl font-bold mb-10 border-b-2 border-orange-600">About <span class="text-orange-600">Me</span></h1>

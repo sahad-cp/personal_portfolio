@@ -3,14 +3,14 @@
 
 </script>
 <template>
-    <section class="w-full h-auto mt-20">
+    <section class="w-full h-auto mt-20" id="project_section">
         <div class="w-full h-auto flex justify-start items-center p-4">
             <h1 class="font-bold w-full border-b-4 border-orange-600 pb-2 text-4xl font-sans">Projects</h1>
         </div>
         <div class="w-full h-auto grid grid-flow-row grid-cols-1 md:grid-cols-3">
             <div class="h-auto flex justify-center items-center py-36">
                 <div class="w-72 relative bg-orange-600 h-72 rounded-md">
-                    <p class="text-white">
+                    <p class="text-white text-center p-4">
                         Developed a web-based system to manage
                     stock, products, purchases, and billing.
                     Developed a web-based system to manage
@@ -27,13 +27,11 @@
             </div>
             <div class="h-auto flex justify-center items-center py-36">
                 <div class="w-72 relative bg-orange-600 h-72 rounded-md">
-                    <p class="text-white">
-                        Developed a web-based system to manage
-                    stock, products, purchases, and billing.
-                    Developed a web-based system to manage
-                    stock, products, purchases, and billing.
-                    Developed a web-based system to manage
-                    stock, products, purchases, and billing.
+                    <p class="text-white text-center p-4">
+                        Developed a web-based system for hospital
+                        appointments, doctor information,
+                        The system allowed patients to schedule
+                        appointments online
 
                     </p>
                     <button style="border-radius: 50%;" class="bg-white px-5 py-7 font-semibold hover:text-orange-600 absolute top-60 left-24 shadow-md">github</button>

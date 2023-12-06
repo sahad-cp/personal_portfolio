@@ -4,19 +4,19 @@
     <div class="w-full h-20 flex justify-center items-center shadow-md">
         <nav class="flex space-x-8">
             <li class="font-bold hover:text-orange-600">
-                <a href="">Home</a>
+                <a href="#homesection">Home</a>
             </li>
             <li class="font-bold hover:text-orange-600">
-                <a href="#about">About</a>
+                <a href="#about_section">About</a>
             </li>
             <li class="font-bold hover:text-orange-600">
-                <a href="">Skill</a>
+                <a href="#skill_section">Skill</a>
             </li>
             <li class="font-bold hover:text-orange-600">
-                <a href=""> Project</a>
+                <a href="#project_section"> Project</a>
             </li>
             <li class="font-bold hover:text-orange-600">
-                <a href="#contact">Contact</a>
+                <a href="#contact_section">Contact</a>
             </li>
         </nav>
     </div>

@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <section class="w-full h-auto md:h-screen mt-10">
+    <section class="w-full h-auto md:h-screen mt-10" id="skill_section">
         <div class="w-full h-auto px-3">
             <h1 class="text-end mt-10 font-bold text-4xl font-sans w-full  border-orange-600 border-b-4">
           Skills
