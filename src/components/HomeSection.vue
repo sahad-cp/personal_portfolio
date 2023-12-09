@@ -9,7 +9,7 @@
             <h2 class="font-bold text-3xl md:text-6xl text-white">Hi,</h2>
             <h2 class="font-bold text-3xl md:text-6xl text-white">I am <span class="text-orange-600">Sahad</span></h2>
             <h1 class="font-bold text-4xl md:text-7xl text-white">Web Developer</h1>
-            <button class="bg-orange-600 text-white py-2 px-3 mt-3">Contact me</button>
+            <button class="bg-orange-600 text-white py-2 px-3 mt-3"><a href="#contact_section">Contact me</a></button>
             </div>
         </div>
         <div class="flex justify-center items-center">

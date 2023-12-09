@@ -45,21 +45,20 @@ function checkScreenSize() {
   if (window.innerWidth < 768) {
     mainNav.value = true;
   }
+  else{
+    mainNav.value = false;
+  }
 }
 
 onMounted(() => {
   checkScreenSize();
   window.addEventListener("resize", checkScreenSize);
 });
-const showNav = ()=>{
-    sidebar.value = true
-}
-const closeNav = ()=>{
-    sidebar.value = false
-}
+
 const toggleMenu = () => {
     sidebar.value = !sidebar.value;
 };
+
 </script>
 <template>
     <div v-if="!mainNav" class="w-full h-20 flex justify-center items-center shadow-md" id="nav-main-div">
@@ -84,7 +83,12 @@ const toggleMenu = () => {
     <div v-else class="w-full bg-white h-10 flex justify-end pr-2 items-center" id="second-div-nav">
         <UnorderedListOutlined class="text-white w-5 text-2xl mr-3" @click="toggleMenu"/>
     </div>
-    <a-menu v-if="sidebar" :open="sidebar" :items="items" mode="inline" left :style="{ left: sidebar ? 0 : '-100%' }" />
+    <div v-if="sidebar" class="grid gap-2 place-items-center bg-gray-950 " >
+<a v-for="item of items" :key="item.key" :href="item.path" @click="toggleMenu" class="font-bold bg-transparent text-white hover:text-orange-600">
+  {{ item.label }}
+</a>
+      <!-- <a-menu v-if="sidebar && mainNav" :open="sidebar" :items="items" mode="inline" left :style="{ left: sidebar ? 0 : '-100%' }" /> -->
+    </div>
 </template>
 
 <style  scoped>
@@ -100,4 +104,5 @@ li .active-link{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 </style> 
