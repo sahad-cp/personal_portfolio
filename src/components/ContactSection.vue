@@ -1,6 +1,7 @@
 
 <script setup>
 
+
 </script>
 <template>
    <section class="w-full h-screen grid grid-flow-row grid-cols-1 md:grid-cols-2" id="contact_section">
@@ -42,13 +43,13 @@
     </div>
     <div class="flex justify-center items-center">
         <div class="w-5/6 bg-white h-96 rounded-lg">
-            <form action="https://formsubmit.co/sahadmanu4@email.com" method="post" class="p-5">
-                <label for="" class="font-bold">Name:</label>
-                <input type="text" name="name" class="w-full border pl-2 h-10 my-3 " required placeholder="your name">
+            <form  class="p-5">
+                <label for="" class="font-bold" >Name:</label>
+                <input type="text" name="name" id="name" class="w-full border pl-2 h-10 my-3 " required placeholder="your name">
                 <label for="" class="font-bold ">Email:</label>
-                <input type="email" name="email" class="w-full border pl-2 h-10 my-3"  required placeholder="abcd@gmail.com">
+                <input type="email" name="email" id="email" class="w-full border pl-2 h-10 my-3"  required placeholder="abcd@gmail.com">
                 <label for="" class="font-bold ">Phone:</label>
-                <input type="number" name="phone" class="w-full border pl-2 h-10 mt-3"  placeholder="phone number">
+                <input type="text" name="massage" id="phone" class="w-full border pl-2 h-10 mt-3"  placeholder="Message">
                 <input type="submit" value="send" class="w-full text-white bg-orange-600 mt-7 h-10 rounded-md font-bold" >
             </form>
         </div>
